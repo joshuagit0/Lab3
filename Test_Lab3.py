@@ -5,11 +5,8 @@ print("Test_Lab3")
 
 def test_bubble_sort_ascending():
     result = []
-    #input_arr = [64, 34, 25, 12, 22, 11, 90]
-    #test_arr = [11, 12, 22, 25, 34, 64, 90]
-
-    input_arr = [64, 34, 25, 12, 22, 11, 90, 1, 2, 3, 4, 5, 6]
-    test_arr = -1
+    input_arr = [64, 34, 25, 12, 22, 11, 90]
+    test_arr = [11, 12, 22, 25, 34, 64, 90]
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
